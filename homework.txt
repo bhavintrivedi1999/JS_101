@@ -1,0 +1,16 @@
+git version control
+how to rollback
+
+--------------
+github actions - CICD
+
+--------------
+DOM_101
+--------------
+console.log(body)--> prev body
+console body -->new body
+--------------
+null vs undefined
+--------------
+JavaScript Essentials
+--------------
