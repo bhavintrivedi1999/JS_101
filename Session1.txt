@@ -1,1 +1,49 @@
-Hello World
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack
+$ git clone https://github.com/bhavintrivedi1999/JS_101.git
+Cloning into 'JS_101'...
+warning: You appear to have cloned an empty repository.
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack
+$ cd JS_101/
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Session1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git add .
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Session1.txt
+
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git commit -m "first commit"
+[master (root-commit) 97446e0] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Session1.txt
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 116.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/bhavintrivedi1999/JS_101.git
+ * [new branch]      master -> master
+
