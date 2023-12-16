@@ -1,0 +1,117 @@
+git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git pull
+Already up to date.
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git branch QA
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (master)
+$ git checkout QA
+Switched to branch 'QA'
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (QA)
+$ git status
+On branch QA
+nothing to commit, working tree clean
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (QA)
+$ git push
+fatal: The current branch QA has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin QA
+
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (QA)
+$ git push --set-upstream origin QA
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'QA' on GitHub by visiting:
+remote:      https://github.com/bhavintrivedi1999/JS_101/pull/new/QA
+remote:
+To https://github.com/bhavintrivedi1999/JS_101.git
+ * [new branch]      QA -> QA
+Branch 'QA' set up to track remote branch 'QA' from 'origin'.
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (QA)
+$ git branch develop
+fatal: A branch named 'develop' already exists.
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (QA)
+$ git branch
+* QA
+  develop
+  master
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (QA)
+$ git checkout develop
+Switched to branch 'develop'
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git status
+On branch develop
+nothing to commit, working tree clean
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git push
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git push --set-upstream origin develop
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/bhavintrivedi1999/JS_101/pull/new/develop
+remote:
+To https://github.com/bhavintrivedi1999/JS_101.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git status
+On branch develop
+Your branch is up to date with 'origin/develop'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git add .
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git commit -m "firt"
+[develop 26d867f] firt
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 431 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/bhavintrivedi1999/JS_101.git
+   82042d1..26d867f  develop -> develop
+
+parth@LAPTOP-8OP9AQ01 MINGW64 ~/Desktop/MERN Stack/JS_101 (develop)
+$
